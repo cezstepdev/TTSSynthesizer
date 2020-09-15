@@ -11,17 +11,15 @@ namespace AIFTTSService
 {
     public partial class Service1 : ServiceBase
     {
-
         private WebSocket webSocket;
-        public void ws()
+        
+        public void webSocketCreate()
         {
             try
             {
                 String url = ConfigurationManager.AppSettings["url"];
-                String port = ConfigurationManager.AppSettings["port"];
-                String end = ConfigurationManager.AppSettings["end"];
-                WriteToFile(url + port + end);
-                webSocket = new WebSocket(url + port + end);
+                WriteToFile(url);
+                webSocket = new WebSocket(url);
                 webSocket.SslConfiguration.EnabledSslProtocols = System.Security.Authentication.SslProtocols.Tls12;
                 webSocket.OnOpen += WebSocket_OnOpen;
                 webSocket.OnMessage += WebSocket_OnMessage;
@@ -71,7 +69,7 @@ namespace AIFTTSService
         protected override void OnStart(string[] args)
         {
             WriteToFile("Service is started at " + DateTime.Now);
-            ws();
+            webSocketCreate();
             AIFTTS("start");
         }
         
