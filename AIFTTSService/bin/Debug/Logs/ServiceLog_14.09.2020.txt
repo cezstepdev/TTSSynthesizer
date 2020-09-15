@@ -1,0 +1,27 @@
+Service is started at 14.09.2020 13:54:49
+wss://console.mysocialseller.com/console/12751/11/tts/ws
+Service is stopped at 14.09.2020 13:56:07
+Service is started at 14.09.2020 13:56:33
+wss://console.mysocialseller.com/console/12751/15/tts/ws
+{"messageId":"5f5f5a8c36d1a000010a1efe","botId":12751,"conversationId":"5f5f5a6b36d1a000010a1ef9","microbotId":"FAQ_12751","order":4,"timestamp":1600084620668,"text":"Nie jestem osobą, która bierze rzeczy do siebie.  🤷🏼‍♀️‍♀️","options":[],"settings":{},"learn":false,"status":"DEFAULT","messageType":"TEXT","source":"BOT","groupId":"5f4f68ce36d1a0000152a1fa","prevId":"5f5f5a8b36d1a000010a1efd"}
+{"messageId":"5f5f5a9136d1a000010a1eff","botId":12751,"conversationId":"5f5f5a6b36d1a000010a1ef9","microbotId":"FAQ_12751","order":5,"timestamp":1600084625662,"text":"testastas","user":"admin","learn":false,"status":"OFFLINE","messageType":"TEXT","source":"BOT","groupId":"5f0b591f36d1a00001ab59c5","prevId":"5f5f5a8c36d1a000010a1efe"}
+{"messageId":"5f5f5b2636d1a000010a1f01","botId":12751,"conversationId":"5f5f5a6b36d1a000010a1ef9","microbotId":"12751_16107","switchMicrobotId":["12751_18401"],"order":7,"timestamp":1600084774742,"text":" Oto twoje produkty: 15","user":"admin","learn":true,"status":"INIT","messageType":"TEXT","source":"BOT","groupId":"5ef46d42b3cb1f0001b664ff","prevId":"5f5f5b2636d1a000010a1f00"}
+Service is stopped at 14.09.2020 14:09:54
+Service is started at 14.09.2020 14:13:26
+Service is stopped at 14.09.2020 14:15:29
+Service is started at 14.09.2020 14:16:41
+wss://console.mysocialseller.com/console/12751/15/tts/ws
+
+
+
+Service is stopped at 14.09.2020 14:17:30
+Service is started at 14.09.2020 14:17:51
+wss://console.mysocialseller.com/console/12751/16/tts/ws
+
+
+Service is stopped at 14.09.2020 14:19:04
+Service is started at 14.09.2020 14:19:18
+wss://console.mysocialseller.com/console/12751/16/tts/ws
+ Oto twoje produkty: 16
+Moje propozycje dla Ciebie 👇  
+Service is stopped at 14.09.2020 16:29:23
